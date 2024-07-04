@@ -16,5 +16,9 @@ public class DemoJenkinsB224Application {
 	public String show() {
 		return "welcome to jenkin session";
 	}
+	@GetMapping("/abc")
+	public String show1() {
+		return "bye to jenkin session";
+	}
 
 }
